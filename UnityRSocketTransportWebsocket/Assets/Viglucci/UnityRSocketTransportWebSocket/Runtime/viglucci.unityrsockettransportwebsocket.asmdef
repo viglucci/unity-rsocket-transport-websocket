@@ -1,0 +1,17 @@
+{
+    "name": "viglucci.unityrsockettransportwebsocket.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "SimpleWebTransport",
+        "viglucci.unityrsocket"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

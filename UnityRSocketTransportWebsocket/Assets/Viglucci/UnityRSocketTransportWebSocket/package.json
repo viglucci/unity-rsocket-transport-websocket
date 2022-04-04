@@ -1,0 +1,25 @@
+{
+  "name": "io.viglucci.unityrsockettransportwebsocket",
+  "version": "0.1.0",
+  "description": "Unity compatible implementation of a RSocket WebSocket transport.",
+  "displayName": "RSocket for Unity",
+  "unity": "2020.3",
+  "keywords": [
+    "library",
+    "networking",
+    "platform",
+    "tcp",
+    "websocket",
+    "binary"
+  ],
+  "author": {
+    "email": "kviglucci@gmail.com",
+    "name": "Kevin Viglucci",
+    "url": "https://viglucci.io"
+  },
+  "license": "See LICENSE.md file",
+  "dependencies": {
+    "io.viglucci.unityrsocket": "0.2.0",
+    "com.james-frowen.simplewebtransport": "1.3.0"
+  }
+}
