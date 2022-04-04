@@ -10,5 +10,18 @@ A Unity Compatible WebSocket transport for [Unity RSocket](https://github.com/vi
 ## Example
 
 ```cs
+WebsocketTransport transport = new WebsocketTransport(
+    "ws", 
+    "localhost",
+    7000,
+    5000,
+    20000,
+    5000);
 
+RSocketConnector connector = new RSocketConnector(
+    transport,
+    new SetupOptions(3000, 1000, new List<byte>(), new List<byte>()),
+    new MonoBehaviorScheduler());
+
+RSocketRequester rSocketRequester = connector.Bind();
 ```
